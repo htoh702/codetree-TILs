@@ -61,7 +61,7 @@ public class Main {
         for(int i=r2;i>r1;i--){
             list[i][c2] = list[i-1][c2];
         }
-        for(int i=c2;i>c1-1;i--){
+        for(int i=c2;i>c1;i--){
             list[r1][i] = list[r1][i-1];
         }
         list[r1][c1+1] = sum;
