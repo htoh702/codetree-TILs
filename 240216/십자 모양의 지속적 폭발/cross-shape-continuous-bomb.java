@@ -31,8 +31,8 @@ public class Main {
         }
 
         StringBuilder sb = new StringBuilder();
-        for(int i=0;i<4;i++){
-            for(int j=0;j<4;j++){
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
                 sb.append(list[i][j]).append(" ");
             }
             sb.append("\n");
