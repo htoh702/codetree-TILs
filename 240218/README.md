@@ -4,15 +4,15 @@
 24년 02월 18일 목표(90px)까지 90px 남았습니다.
 
 ![0xp](https://img.shields.io/badge/EXP-0xp-%235cb85c.svg?for-the-badge)
-![0일째](https://img.shields.io/badge/연속학습-0일째-%23E34F26.svg?for-the-badge)
+![3일째](https://img.shields.io/badge/연속학습-3일째-%23E34F26.svg?for-the-badge)
 
 |총 문제수|획득 경험치|연속 학습|
 |---:|---:|---|
-1|0xp|0일째❄️|
+1|0xp|3일째🔥|
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
-|[Intermediate Low / Simulation / 격자 안에서 터지고 떨어지는 경우](https://www.codetree.ai/missions?missionId=2)|[[연습]1차원 폭발 게임](https://www.codetree.ai/missions/2/problems/The-1D-bomb-game)|![보통][medium]|![Failed][failed]|[링크](https://github.com/htoh702/codetree-TILs/blob/main/240218/1%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/The-1D-bomb-game.java)|
+|[Intermediate Low / Simulation / 격자 안에서 터지고 떨어지는 경우](https://www.codetree.ai/missions?missionId=2)|[[연습]1차원 폭발 게임](https://www.codetree.ai/missions/2/problems/The-1D-bomb-game)|![보통][medium]|![Passed][passed]|[링크](https://github.com/htoh702/codetree-TILs/blob/main/240218/1%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/The-1D-bomb-game.java)|
 
 
 * 획득 경험치: 해설을 보지 않고 푼 문제에 한해 최초 1회 경험치를 획득하실 수 있습니다.
