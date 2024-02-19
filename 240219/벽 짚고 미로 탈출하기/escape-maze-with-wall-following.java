@@ -5,6 +5,7 @@ import java.util.*;
 
 public class Main {
     static char[][] maze;
+    static boolean[][][] check;
     static int[] dir_x = {0, -1, 0, 1};
     static int[] dir_y = {1, 0, -1, 0};
     static int x,y;
@@ -23,6 +24,7 @@ public class Main {
         y = start_y;
 
         maze = new char[n+2][n+2];
+        check = new boolean[n+2][n+2][4];
         for(int i=0;i<=n+1;i++){
             maze[0][i] = '.';
         }
@@ -43,6 +45,11 @@ public class Main {
         boolean is_p=true;
 
         while(true){
+            if(check[x][y][dir]){
+                is_p=false;
+                break;
+            }
+            check[x][y][dir] = true;
             if(x<=0 || x>n || y<=0 || y>n){
                 break;
             }
@@ -55,11 +62,6 @@ public class Main {
             x += dir_x[dir];
             y += dir_y[dir];
             cnt++;
-
-            if(x == start_x && y == start_y && dir==0){
-                is_p = false;
-                break;
-            }
         }
 
         if(is_p){
