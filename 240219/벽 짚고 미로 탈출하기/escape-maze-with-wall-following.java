@@ -51,15 +51,16 @@ public class Main {
                 is_p=false;
                 break;
             }
-            x += dir_x[dir];
-            y += dir_y[dir];
-            cnt++;
-
             if(x == start_x && y == start_y && dir==0){
                 is_p = false;
                 break;
             }
+            x += dir_x[dir];
+            y += dir_y[dir];
+            cnt++;
         }
+
+        
 
         if(is_p){
             System.out.print(cnt);
