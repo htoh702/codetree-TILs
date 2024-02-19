@@ -55,7 +55,7 @@ public class Main {
             y += dir_y[dir];
             cnt++;
 
-            if(x == start_x && y == start_y){
+            if(x == start_x && y == start_y && dir==0){
                 is_p = false;
                 break;
             }
